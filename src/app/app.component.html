@@ -1,8 +1,41 @@
 <section class="section">
-  <div class="container">
-    <h1 class="title">
-      {{title}}
-    </h1>
+  <div class="container is-centered">
+    
+    <!-- Header component -->
+    <header>
+      <div class="columns is-centered">
+        <div class="column is-narrow">
+          <img src="./../assets/snk.png" alt="SNK" width="76" height="19">
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-narrow">
+          <img src="./../assets/logo.png" alt="{{title}}" width="340" height="100">
+        </div>
+      </div>
+    </header> <!-- .header -->
+    
+    <!-- Dropdown component -->
+    <div class="field">
+      <div class="control">
+        <div class="select">
+          <select>
+            <option>Select dropdown</option>
+            <option>With options</option>
+          </select>
+        </div>
+      </div>
+    </div> <!-- .dropdown component -->
+    
+    <!-- Game list component -->
+    <div class="game-list columns is-multiline">
+      <div class="game column is-one-third">Game 1</div>
+      <div class="game column is-one-third">Game 2</div>
+      <div class="game column is-one-third">Game 3</div>
+      <div class="game column is-one-third">Game 4</div>
+    </div> <!-- .game list component -->
+    
+    
   </div>
 </section>
 
