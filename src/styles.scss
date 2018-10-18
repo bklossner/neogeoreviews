@@ -1,5 +1,11 @@
-$black: #000000;
+@charset "utf-8";
+
+// Import bulma.sass so we can override any default values
+@import "./../node_modules/bulma/bulma";
 
 html {
   background: $black;
+  background-image: url("assets/marquee.png");
+  background-repeat: no-repeat;
+  background-position: top;
 }
