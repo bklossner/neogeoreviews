@@ -3,9 +3,30 @@
 // Import bulma.sass so we can override any default values
 @import "./../node_modules/bulma/bulma";
 
+// Base font for the website = Source Sans Pro
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
+$base-font: 'Source Sans Pro', sans-serif;
+
+// Game container
+$game-width: 300px;
+$game-height: 169px;
+
 html {
   background: $black;
   background-image: url("assets/marquee.png");
   background-repeat: no-repeat;
   background-position: top;
+}
+
+body {
+  font-family: $base-font;
+  color: $light;
+}
+
+.game {
+  //width: $game-width;
+  height: $game-height;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
 }
